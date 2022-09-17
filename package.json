@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is burgerKhaum web app ",
+  "main": "serverjs",
+  "type": "module",
+  "scripts": {
+    
+    "start": "SET NODE_ENV=production & node server.js",
+    "dev": "SET NODE_ENV=development & nodemon server.js"
+  },
+  "author": "Dip Sapkota",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.32.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "razorpay": "^2.8.3"
+  }
+}
